@@ -22,6 +22,19 @@ export const metadata: Metadata = {
   description:
     "A redirect tool for couples. When the pull comes, open Closer and turn toward your partner.",
   manifest: "/manifest.json",
+  icons: {
+    icon: [
+      { url: "/icons/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: [
+      {
+        url: "/icons/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+  },
   appleWebApp: {
     capable: true,
     title: "Closer",
@@ -34,7 +47,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#c8674a",
+  themeColor: "#fce4ec",
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
