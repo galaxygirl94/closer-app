@@ -26,11 +26,11 @@ export function InstallHint() {
   if (installed) return null;
 
   return (
-    <div className="relative mt-8 w-full rounded-2xl border border-terracotta/25 bg-ember/10 px-5 py-4 text-left">
-      <h2 className="font-display text-base font-semibold text-terracotta-deep">
+    <div className="relative mt-8 w-full rounded-2xl border border-rose/30 bg-pink px-5 py-4 text-left">
+      <h2 className="font-display text-base font-semibold text-plum">
         Keep Closer one tap away
       </h2>
-      <p className="mt-1 text-sm leading-relaxed text-ink/70">
+      <p className="mt-1 text-sm leading-relaxed text-ink/75">
         Add it to your home screen — tap{" "}
         <span className="font-medium text-plum">Share</span>, then{" "}
         <span className="font-medium text-plum">Add to Home Screen</span>. It
